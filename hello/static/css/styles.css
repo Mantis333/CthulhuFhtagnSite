@@ -1,0 +1,48 @@
+/* styles.css */
+
+.jumbotron {
+    /* background: #119094; */
+    background: url("../img/rlyehback.jpg");
+    color: white;
+    padding-bottom: 80px;
+}
+/* .jumbotron .btn-primary {
+    background: #845ac7;
+    border-color: #845ac7
+}
+.jumbotron .btn-primary:hover {
+    background: #7646c1
+} */
+.jumbotron p {
+    color: #d9ccee;
+    max-width: 75%;
+    margin: 1em auto 2em
+}
+.navbar+.jumbotron {
+    margin-top: -20px
+}
+.jumbotron .rlyeh-logo {
+    display: block;
+    background: #0b7f83;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border: 2px solid white
+}
+.jumbotron .lang-logo img {
+    max-width: 100%
+}
+
+img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.img-card {
+    width: 30%;
+    height: 200px;
+    border: 5px;
+}
